@@ -215,6 +215,31 @@ pre {
   transform: translateY(-15px);
 }
 
+.languages .img-netsuite {
+  height: 85px;
+  width: 100px;
+}
+
+.languages .img-salesforce {
+  height: 80px;
+  width: 100px;
+}
+
+.languages .img-celigo {
+  height: 85px;
+  width: 85px;
+}
+
+.languages .img-shopify {
+  height: 90px;
+  width: 100px;
+}
+
+.languages .img-bigcommerce {
+  height: 80px;
+  width: 80px;
+}
+
 /* Features */
 .features-head img,
 .docs-head img {
@@ -385,4 +410,24 @@ pre {
   .showcase-form {
     width: 300px;
   }
+}
+
+/*Celigo Certifications*/
+
+.grid-4 { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: flex-start;
+  margin-left: 20%;
+  }
+.grid-4 img {
+  max-width: 50%;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+
+/* Celigo Certifications End*/
+
+.read-me {
+  width: 500px;
 }
